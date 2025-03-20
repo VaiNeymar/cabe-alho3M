@@ -1,0 +1,40 @@
+.root{
+    azul: #0a0ddd;
+    azul-claro: #0cdee6;
+    roxo: #bf57f0;
+    roxo-claro: #a46ff8;
+ 
+ }
+ 
+ .header {
+     display: flex;
+     width: 100%;
+     background-color: var(--azul-claro);
+     padding: irem;
+     position: relative;
+     justify-self: center;
+ 
+      
+ }
+ .menu-disciplina {
+     width: 20%;
+     display: inline-block;
+ }
+ 
+ .botao-disciplinas{
+     cursor: pointer;
+     font-size: 2rem;
+     background: none;
+     background-color: var(--azul);
+     border: none;
+     padding: 1.05rem 1.5rem;
+     color: var(--roxo-claro);
+ }
+ #menu-toggle{
+     display: none;
+ }
+ .lista-vertical{
+     display: none;
+     position: absolute;
+     background-color: var();
+ }
