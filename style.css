@@ -36,5 +36,30 @@
  .lista-vertical{
      display: none;
      position: absolute;
-     background-color: var();
+     background-color: var(--roxo);
+     box-shadow: 0 2px 5px var(--azul-claro);
+     min-width: 190px;
+     z-index: 1;
+     left: 1rem;
+     top: 100%;
  }
+
+.lista-vertical a {
+    color: #0a0ddd;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+}
+
+.lista-vertical a:hover {
+    background-color: var(--roxo-claro);
+}
+
+#menu-toggle:checked ~ .lista-vertical {
+    display: block;
+}
+#menu-toggle:checked + .botao-disciplinas {
+    background-color: var(--azul-claro);
+}
