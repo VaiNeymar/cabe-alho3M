@@ -82,3 +82,6 @@ header {
     background-color: var(--azul-claro);
 }
 
+.navigation{
+    list-style: none;
+}
